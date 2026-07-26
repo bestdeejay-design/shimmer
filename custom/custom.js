@@ -274,6 +274,25 @@
                 window.location.href = targetLink.getAttribute('href');
             }
         });
+
+        const label = document.createElement('div');
+        label.id = 'shimmer-progress-label';
+        label.textContent = '0%';
+        document.body.appendChild(label);
+
+        function updateScrollProgress() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            if (docHeight > 0) {
+                const pct = Math.min(100, Math.round((scrollTop / docHeight) * 100));
+                label.textContent = pct + '%';
+            } else {
+                label.textContent = '100%';
+            }
+        }
+
+        updateScrollProgress();
+        window.addEventListener('scroll', updateScrollProgress, { passive: true });
     }
 
     if (document.readyState === 'loading') {
