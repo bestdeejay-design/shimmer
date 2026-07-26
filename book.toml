@@ -1,0 +1,19 @@
+[book]
+title = "Мерцание. Книга Кая"
+authors = ["bestdeejay-design"]
+description = "Научно-философская сага о вечности сознания, циклах времени и силе мечты."
+src = "files"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/bestdeejay-design/shimmer"
+edit-url-template = "https://github.com/bestdeejay-design/shimmer/edit/main/files/{path}"
+additional-css = ["custom/custom.css"]
+additional-js = ["custom/custom.js"]
+
+[output.html.playground]
+runnable = false
+
+[output.epub]
+optional = true

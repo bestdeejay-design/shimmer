@@ -3,3 +3,4 @@ chat-export-*.json
 *.bak
 .DS_Store?
 .omo/
+book/

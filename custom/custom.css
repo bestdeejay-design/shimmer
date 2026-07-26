@@ -1,0 +1,124 @@
+/* ========== Мерцание — кастомные стили читалки ========== */
+
+/* --- Шрифты --- */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    font-family: 'PT Serif', 'Georgia', 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+/* Увеличенный межбуквенный интервал для художественного текста */
+main {
+    letter-spacing: 0.01em;
+}
+
+/* Более широкие поля для читаемости */
+.page {
+    max-width: 720px;
+    padding: 0 24px;
+}
+
+/* Заголовки глав */
+h1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    letter-spacing: 0.05em;
+}
+
+/* Подзаголовок (номер главы и название книги) */
+h1 + p,
+h1 + p + p {
+    text-align: center;
+    font-style: italic;
+    color: var(--fg);
+    opacity: 0.7;
+}
+
+/* --- Разделители (***) --- */
+hr {
+    border: none;
+    text-align: center;
+    margin: 2.5em 0;
+}
+hr::after {
+    content: "· · ·";
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    opacity: 0.5;
+}
+
+/* --- Эпиграфы и цитаты --- */
+blockquote {
+    font-style: italic;
+    border-left: 2px solid var(--quote-border);
+    padding-left: 1.2em;
+    margin: 1.5em 0;
+    opacity: 0.85;
+}
+
+/* --- Сноски — более изящные --- */
+.footnote-definition {
+    font-size: 0.85em;
+    opacity: 0.8;
+    margin: 1em 0;
+}
+
+/* --- Мобильная адаптация --- */
+@media (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+    .page {
+        padding: 0 16px;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+}
+
+/* --- Панель управления чтением --- */
+#reading-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--bg);
+    border: 1px solid var(--theme-popup-border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+#reading-controls:hover {
+    opacity: 1;
+}
+
+#reading-controls label {
+    font-size: 0.75em;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+
+#reading-controls input[type="range"] {
+    width: 120px;
+    cursor: pointer;
+}
+
+#reading-controls select {
+    font-size: 0.8em;
+    padding: 2px 4px;
+    border-radius: 4px;
+    border: 1px solid var(--theme-popup-border);
+    background: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+}
