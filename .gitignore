@@ -1,0 +1,5 @@
+.DS_Store
+chat-export-*.json
+*.bak
+.DS_Store?
+.omo/
