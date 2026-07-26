@@ -7,8 +7,6 @@ src = "files"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/bestdeejay-design/shimmer"
-edit-url-template = "https://github.com/bestdeejay-design/shimmer/edit/main/files/{path}"
 additional-css = ["custom/custom.css"]
 additional-js = ["custom/custom.js"]
 
