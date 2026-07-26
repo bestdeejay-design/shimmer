@@ -1,3 +1,12 @@
+/* ===== 6/8 — Плавное появление глав ===== */
+main {
+    animation: shimmerFadeIn 0.4s ease-out;
+}
+@keyframes shimmerFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
 /* ===== 5/8 — Баннер «Продолжить чтение» ===== */
 #shimmer-continue-banner {
     position: fixed;
