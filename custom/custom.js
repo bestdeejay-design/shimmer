@@ -22,17 +22,14 @@
         const dx = t.clientX - touchStartX;
         const dy = t.clientY - touchStartY;
 
-        // Если это был скролл (по вертикали больше, чем по горизонтали) — не вмешиваемся
         if (Math.abs(dy) > Math.abs(dx) * 1.5) return;
 
         const target = e.target;
-        // Не срабатывать на кликабельных элементах
         if (target.closest('a, button, input, select, textarea, [role="button"]')) return;
 
         const w = window.innerWidth;
         const tapX = t.clientX;
 
-        // Свайп влево/вправо
         if (Math.abs(dx) > 40) {
             if (dx < 0) {
                 clickNext();
@@ -43,7 +40,6 @@
             return;
         }
 
-        // Тап по левой/правой трети
         if (Math.abs(dx) < 20) {
             if (tapX < w * 0.3) {
                 clickPrev();
@@ -54,16 +50,11 @@
         }
     }, { passive: true });
 
-    // Клик левой/правой кнопкой мыши по краям (для удобства на десктопе)
     document.addEventListener('click', function(e) {
-        // Только если клик не на кликабельном элементе
         if (e.target.closest('a, button, input, select, textarea, [role="button"]')) return;
 
         const w = window.innerWidth;
-        // Не срабатывать на широких экранах (>900px) — там есть боковые нав-стрелки
         if (w > 900) return;
-
-        // Только левая кнопка мыши
         if (e.button !== 0) return;
 
         const x = e.clientX;
@@ -82,5 +73,51 @@
     function clickNext() {
         const next = document.querySelector('.nav-chapters.next, .mobile-nav-chapters.next');
         if (next) next.click();
+    }
+})();
+
+// ===== 2/8 — Закрытие сайдбара жестом + оверлей =====
+(function() {
+    'use strict';
+
+    const sidebar = document.getElementById('mdbook-sidebar');
+    const toggle = document.getElementById('mdbook-sidebar-toggle-anchor');
+    if (!sidebar || !toggle) return;
+
+    let sbTouchStartX = 0;
+
+    sidebar.addEventListener('touchstart', function(e) {
+        if (e.touches.length !== 1) return;
+        sbTouchStartX = e.touches[0].clientX;
+    }, { passive: true });
+
+    sidebar.addEventListener('touchend', function(e) {
+        if (!toggle.checked) return;
+        if (e.changedTouches.length !== 1) return;
+        const dx = e.changedTouches[0].clientX - sbTouchStartX;
+        if (dx < -40) {
+            toggle.checked = false;
+            document.documentElement.classList.remove('sidebar-visible');
+        }
+    }, { passive: true });
+
+    function setupOverlay() {
+        const pageWrapper = document.querySelector('.page-wrapper');
+        if (!pageWrapper) return;
+
+        pageWrapper.addEventListener('click', function(e) {
+            if (!toggle.checked) return;
+            if (e.target.closest('#mdbook-sidebar')) return;
+            if (window.innerWidth < 1080) {
+                toggle.checked = false;
+                document.documentElement.classList.remove('sidebar-visible');
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupOverlay);
+    } else {
+        setupOverlay();
     }
 })();
