@@ -3,22 +3,27 @@
 (function() {
     'use strict';
 
-    // --- Состояние ---
-    let controlsVisible = false;
+    let menuVisible = false;
 
-    // --- Контейнеры ---
+    // --- Создаём overlay ---
     const overlay = document.createElement('div');
-    overlay.id = 'reader-overlay';
+    overlay.id = 'mdbook-settings-overlay';
 
-    const toggle = document.createElement('button');
-    toggle.id = 'reader-settings-toggle';
-    toggle.innerHTML = '⚙';
-    toggle.title = 'Настройки чтения';
-    toggle.setAttribute('aria-label', 'Настройки чтения');
+    // --- Создаём выпадающее меню ---
+    const menu = document.createElement('div');
+    menu.id = 'mdbook-settings-menu';
+    menu.innerHTML = `
+        <button class="menu-action" data-action="sidebar">
+            <span class="icon">☰</span> Содержание
+        </button>
+        <button class="menu-action" data-action="search">
+            <span class="icon">🔍</span> Поиск
+        </button>
 
-    const controls = document.createElement('div');
-    controls.id = 'reader-controls';
-    controls.innerHTML = `
+        <hr class="menu-divider">
+
+        <div class="settings-section-title">Чтение</div>
+
         <div class="control-row">
             <label>Шрифт</label>
             <input type="range" id="fs-slider" min="14" max="26" value="18" step="1">
@@ -27,7 +32,7 @@
         <div class="control-row">
             <label>Интервал</label>
             <input type="range" id="lh-slider" min="1.4" max="2.2" value="1.75" step="0.05">
-            <span class="value" id="lh-value">1.75</span>
+            <span class="value" id="lh-value">1.8</span>
         </div>
         <div class="control-row">
             <label>Ширина</label>
@@ -45,15 +50,9 @@
     `;
 
     document.body.appendChild(overlay);
-    document.body.appendChild(toggle);
-    document.body.appendChild(controls);
+    document.body.appendChild(menu);
 
-    // --- Загрузка сохранённых настроек ---
-    const saved = JSON.parse(localStorage.getItem('shimmer-settings') || '{}');
-    const html = document.documentElement;
-    const page = document.querySelector('.page');
-
-    // Элементы управления
+    // --- Элементы управления ---
     const fsSlider = document.getElementById('fs-slider');
     const lhSlider = document.getElementById('lh-slider');
     const wdSlider = document.getElementById('wd-slider');
@@ -62,7 +61,12 @@
     const lhVal = document.getElementById('lh-value');
     const wdVal = document.getElementById('wd-value');
 
-    // Применение сохранённых
+    const html = document.documentElement;
+    const page = document.querySelector('.page');
+
+    // --- Загрузка сохранённых ---
+    const saved = JSON.parse(localStorage.getItem('shimmer-settings') || '{}');
+
     if (saved.fontSize) {
         html.style.fontSize = saved.fontSize + 'px';
         fsSlider.value = saved.fontSize;
@@ -83,7 +87,7 @@
         applyBg(saved.bg);
     }
 
-    // --- Сохранение ---
+    // --- Функции ---
     function save() {
         localStorage.setItem('shimmer-settings', JSON.stringify({
             fontSize: parseInt(fsSlider.value),
@@ -108,24 +112,45 @@
         save();
     }
 
-    // --- Toggle панели ---
-    function showControls(show) {
-        controlsVisible = show;
-        controls.classList.toggle('visible', show);
+    function toggleMenu(show) {
+        menuVisible = show;
+        menu.classList.toggle('visible', show);
         overlay.classList.toggle('visible', show);
-        toggle.textContent = show ? '✕' : '⚙';
+
+        const btn = document.getElementById('mdbook-header-settings');
+        if (btn) btn.classList.toggle('active', show);
     }
 
-    toggle.addEventListener('click', function(e) {
-        e.stopPropagation();
-        showControls(!controlsVisible);
-    });
+    // --- Кнопка шестерёнки в хедере ---
+    const gearBtn = document.getElementById('mdbook-header-settings');
+    if (gearBtn) {
+        gearBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            toggleMenu(!menuVisible);
+        });
+    }
 
+    // --- Закрытие по overlay ---
     overlay.addEventListener('click', function() {
-        showControls(false);
+        toggleMenu(false);
     });
 
-    // --- События слайдеров ---
+    // --- Кнопки действий ---
+    menu.querySelectorAll('[data-action]').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+            const action = this.dataset.action;
+            if (action === 'sidebar') {
+                const toggle = document.getElementById('mdbook-sidebar-toggle');
+                if (toggle) toggle.click();
+            } else if (action === 'search') {
+                const toggle = document.getElementById('mdbook-search-toggle');
+                if (toggle) toggle.click();
+            }
+            toggleMenu(false);
+        });
+    });
+
+    // --- Слайдеры ---
     fsSlider.addEventListener('input', function() {
         const v = this.value;
         html.style.fontSize = v + 'px';
@@ -151,10 +176,10 @@
         applyBg(this.value);
     });
 
-    // --- Закрытие по Escape ---
+    // --- Escape ---
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && controlsVisible) {
-            showControls(false);
+        if (e.key === 'Escape' && menuVisible) {
+            toggleMenu(false);
         }
     });
 })();

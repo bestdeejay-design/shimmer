@@ -57,6 +57,11 @@ blockquote {
     margin: 1em 0;
 }
 
+/* --- Прячем штатные кнопки хедера (☰ и 🔍) --- */
+.left-buttons {
+    display: none;
+}
+
 /* Мобильная адаптация */
 @media (max-width: 480px) {
     html {
@@ -71,85 +76,103 @@ blockquote {
 }
 
 /* ==========================================
-   Панель управления чтением
+   Выпадающее меню настроек (от шестерёнки)
    ========================================== */
 
-/* Кнопка-шестерёнка */
-#reader-settings-toggle {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid var(--theme-popup-border);
-    background: var(--bg);
-    color: var(--fg);
-    font-size: 20px;
-    cursor: pointer;
-    z-index: 1001;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.45;
-    transition: opacity 0.25s ease, transform 0.25s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-}
-#reader-settings-toggle:hover {
-    opacity: 1;
-    transform: scale(1.05);
-}
-
-/* Сама панель (скрыта по умолчанию) */
-#reader-controls {
-    position: fixed;
-    bottom: 70px;
-    right: 20px;
+/* Контейнер меню */
+#mdbook-settings-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 8px;
     background: var(--bg);
     border: 1px solid var(--theme-popup-border);
     border-radius: 10px;
-    padding: 16px 20px;
-    z-index: 1000;
-    display: none;
-    flex-direction: column;
-    gap: 10px;
+    padding: 12px 0;
+    z-index: 2000;
+    min-width: 200px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.18);
-    min-width: 160px;
 }
-#reader-controls.visible {
-    display: flex;
+#mdbook-settings-menu.visible {
+    display: block;
+    animation: fadeIn 0.15s ease;
 }
 
-#reader-controls .control-row {
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Кнопки-действия (Содержание, Поиск) */
+#mdbook-settings-menu .menu-action {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    color: var(--fg);
+    font-size: 0.95em;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+}
+#mdbook-settings-menu .menu-action:hover {
+    background: var(--theme-hover);
+}
+#mdbook-settings-menu .menu-action .icon {
+    font-size: 1.1em;
+    width: 24px;
+    text-align: center;
 }
 
-#reader-controls label {
+/* Разделитель */
+#mdbook-settings-menu .menu-divider {
+    border: none;
+    border-top: 1px solid var(--theme-popup-border);
+    margin: 8px 12px;
+}
+
+/* Заголовок секции настроек */
+#mdbook-settings-menu .settings-section-title {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.4;
+    padding: 4px 16px 8px;
+}
+
+/* Ряд настроек */
+#mdbook-settings-menu .control-row {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 10px;
+}
+
+#mdbook-settings-menu .control-row label {
     font-size: 0.75em;
     opacity: 0.6;
-    min-width: 52px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    min-width: 44px;
 }
 
-#reader-controls input[type="range"] {
+#mdbook-settings-menu .control-row input[type="range"] {
     flex: 1;
-    min-width: 80px;
+    min-width: 60px;
     cursor: pointer;
     height: 4px;
     accent-color: var(--links);
 }
 
-#reader-controls .value {
-    font-size: 0.75em;
-    opacity: 0.5;
-    min-width: 28px;
+#mdbook-settings-menu .control-row .value {
+    font-size: 0.7em;
+    opacity: 0.45;
+    min-width: 24px;
     text-align: right;
 }
 
-#reader-controls select {
+#mdbook-settings-menu .control-row select {
     flex: 1;
     font-size: 0.8em;
     padding: 4px 6px;
@@ -160,23 +183,14 @@ blockquote {
     cursor: pointer;
 }
 
-/* Анимация появления */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-#reader-controls.visible {
-    animation: fadeIn 0.2s ease;
-}
-
-/* Затемнение фона при открытой панели */
-#reader-overlay {
+/* Затемнение */
+#mdbook-settings-overlay {
     display: none;
     position: fixed;
     inset: 0;
-    z-index: 999;
+    z-index: 1999;
     background: transparent;
 }
-#reader-overlay.visible {
+#mdbook-settings-overlay.visible {
     display: block;
 }
