@@ -354,7 +354,10 @@
 (function() {
     'use strict';
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js').catch(function() {});
+        // Вычисляем путь к sw.js относительно корня сайта (работает с любой вложенности)
+        var path = window.location.pathname;
+        var root = path.substring(0, path.indexOf('/', 1) + 1);
+        navigator.serviceWorker.register(root + 'sw.js').catch(function() {});
     }
 })();
 
