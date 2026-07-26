@@ -122,6 +122,54 @@
     }
 })();
 
+// ===== 4/8 — Авто-скрытие хедера =====
+(function() {
+    'use strict';
+
+    const header = document.getElementById('mdbook-menu-bar');
+    if (!header) return;
+
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+    const HIDE_THRESHOLD = 80;
+
+    function onScroll() {
+        const sy = window.scrollY;
+        const dy = sy - lastScrollY;
+
+        if (Math.abs(dy) < 8) {
+            ticking = false;
+            return;
+        }
+
+        if (dy > 0 && sy > HIDE_THRESHOLD) {
+            header.classList.add('shimmer-header-hidden');
+        } else if (dy < 0) {
+            header.classList.remove('shimmer-header-hidden');
+        }
+
+        lastScrollY = sy;
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            window.requestAnimationFrame(function() {
+                onScroll();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }, { passive: true });
+
+    document.addEventListener('touchstart', function(e) {
+        const touch = e.touches[0];
+        if (touch.clientY < 80) {
+            header.classList.remove('shimmer-header-hidden');
+        }
+    }, { passive: true });
+})();
+
 // ===== 3/8 — Прогресс-бар внизу =====
 (function() {
     'use strict';
