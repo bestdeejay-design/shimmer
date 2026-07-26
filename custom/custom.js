@@ -121,3 +121,63 @@
         setupOverlay();
     }
 })();
+
+// ===== 3/8 — Прогресс-бар внизу =====
+(function() {
+    'use strict';
+
+    function buildProgressBar() {
+        const sidebar = document.getElementById('mdbook-sidebar');
+        if (!sidebar) return;
+
+        const links = sidebar.querySelectorAll('li.chapter-item a');
+        if (!links.length) return;
+
+        const currentPath = window.location.pathname.split('/').pop() || '';
+
+        let currentIdx = -1;
+        links.forEach(function(a, i) {
+            const href = a.getAttribute('href');
+            if (href && currentPath.includes(href)) {
+                currentIdx = i;
+            }
+        });
+
+        if (currentIdx < 0) return;
+
+        const total = links.length;
+        const pct = total > 1 ? (currentIdx / (total - 1)) * 100 : 0;
+
+        const container = document.createElement('div');
+        container.id = 'shimmer-progress';
+        container.setAttribute('aria-label', 'Progress');
+        container.setAttribute('role', 'progressbar');
+        container.setAttribute('aria-valuenow', Math.round(pct));
+        container.setAttribute('aria-valuemin', '0');
+        container.setAttribute('aria-valuemax', '100');
+
+        const bar = document.createElement('div');
+        bar.id = 'shimmer-progress-bar';
+        bar.style.width = pct + '%';
+        container.appendChild(bar);
+
+        document.body.appendChild(container);
+
+        container.addEventListener('click', function(e) {
+            const rect = container.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const ratio = Math.max(0, Math.min(1, x / rect.width));
+            const targetIdx = Math.round(ratio * (total - 1));
+            const targetLink = links[targetIdx];
+            if (targetLink) {
+                window.location.href = targetLink.getAttribute('href');
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', buildProgressBar);
+    } else {
+        buildProgressBar();
+    }
+})();

@@ -1,0 +1,25 @@
+/* ===== 3/8 — Прогресс-бар внизу ===== */
+#shimmer-progress {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--quote-border, #ddd);
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s;
+}
+#shimmer-progress-bar {
+    height: 100%;
+    background: var(--links, #4183c4);
+    width: 0%;
+    transition: width 0.3s ease;
+    border-radius: 0 2px 2px 0;
+}
+#shimmer-progress:hover {
+    height: 6px;
+}
+#shimmer-progress:hover #shimmer-progress-bar {
+    transition: width 0.3s ease, height 0.15s;
+}
