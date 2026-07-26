@@ -7,8 +7,6 @@ src = "files"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-additional-css = ["custom/custom.css"]
-additional-js = ["custom/custom.js"]
 
 [output.html.playground]
 runnable = false
