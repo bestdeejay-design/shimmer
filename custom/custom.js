@@ -25,7 +25,8 @@
         if (Math.abs(dy) > Math.abs(dx) * 1.5) return;
 
         const target = e.target;
-        if (target.closest('a, button, input, select, textarea, [role="button"]')) return;
+        // Исключаем кликабельные элементы и всё, что в хедере (☰, 🔍, ⚙)
+        if (target.closest('a, button, input, select, textarea, [role="button"], label, #mdbook-menu-bar')) return;
 
         const w = window.innerWidth;
         const tapX = t.clientX;
@@ -51,7 +52,7 @@
     }, { passive: true });
 
     document.addEventListener('click', function(e) {
-        if (e.target.closest('a, button, input, select, textarea, [role="button"]')) return;
+        if (e.target.closest('a, button, input, select, textarea, [role="button"], label, #mdbook-menu-bar')) return;
 
         const w = window.innerWidth;
         if (w > 900) return;
