@@ -1,3 +1,154 @@
+/* ===== Хедер: ☰ 🔍 название ⚙ ===== */
+/* Прячем 🎨 переключатель тем из хедера */
+#mdbook-theme-toggle,
+#mdbook-theme-list {
+    display: none !important;
+}
+/* Прячем 🖨 печать из хедера */
+.menu-bar .right-buttons > a[href*="print"] {
+    display: none !important;
+}
+/* ⚙ кнопка */
+#mdbook-header-settings {
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+#mdbook-header-settings:hover {
+    transform: rotate(30deg);
+}
+#mdbook-header-settings.active {
+    transform: rotate(45deg);
+}
+
+/* ===== Выпадающее меню ⚙ ===== */
+#mdbook-settings-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 8px;
+    background: var(--bg);
+    border: 1px solid var(--theme-popup-border);
+    border-radius: 10px;
+    padding: 12px 0;
+    z-index: 2000;
+    min-width: 220px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+}
+#mdbook-settings-menu.visible {
+    display: block;
+    animation: shimmerFadeIn 0.15s ease;
+}
+
+#mdbook-settings-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1999;
+    background: transparent;
+}
+#mdbook-settings-overlay.visible {
+    display: block;
+}
+
+#mdbook-settings-menu .menu-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    color: var(--fg);
+    font-size: 0.95em;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+}
+#mdbook-settings-menu .menu-action:hover {
+    background: var(--theme-hover);
+}
+#mdbook-settings-menu .menu-action .icon {
+    font-size: 1.1em;
+    width: 24px;
+    text-align: center;
+}
+
+#mdbook-settings-menu .menu-divider {
+    border: none;
+    border-top: 1px solid var(--theme-popup-border);
+    margin: 8px 12px;
+}
+
+#mdbook-settings-menu .settings-section-title {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.4;
+    padding: 4px 16px 8px;
+}
+
+#mdbook-settings-menu .control-row {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 10px;
+}
+#mdbook-settings-menu .control-row label {
+    font-size: 0.75em;
+    opacity: 0.6;
+    min-width: 44px;
+}
+#mdbook-settings-menu .control-row input[type="range"] {
+    flex: 1;
+    min-width: 60px;
+    cursor: pointer;
+    height: 4px;
+    accent-color: var(--links);
+}
+#mdbook-settings-menu .control-row .value {
+    font-size: 0.7em;
+    opacity: 0.45;
+    min-width: 24px;
+    text-align: right;
+}
+#mdbook-settings-menu .control-row select {
+    flex: 1;
+    font-size: 0.8em;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--theme-popup-border);
+    background: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+}
+
+/* Тема: ряд кнопок */
+#mdbook-settings-menu .theme-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 4px 16px 8px;
+}
+#mdbook-settings-menu .theme-btn {
+    font-size: 0.75em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--theme-popup-border);
+    background: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+    font-family: inherit;
+}
+#mdbook-settings-menu .theme-btn:hover {
+    background: var(--theme-hover);
+}
+#mdbook-settings-menu .theme-btn.active {
+    background: var(--links);
+    color: #fff;
+    border-color: var(--links);
+}
+
 /* ===== 6/8 — Плавное появление глав ===== */
 main {
     animation: shimmerFadeIn 0.4s ease-out;
