@@ -122,6 +122,51 @@
     }
 })();
 
+// ===== 5/8 — Сохранение прогресса чтения =====
+(function() {
+    'use strict';
+
+    const LS_KEY = 'shimmer-last-chapter';
+    const currentUrl = window.location.pathname.split('/').pop() || '';
+
+    function getChapterTitle() {
+        const sidebar = document.getElementById('mdbook-sidebar');
+        if (!sidebar) return '';
+        const links = sidebar.querySelectorAll('li.chapter-item a');
+        for (let i = 0; i < links.length; i++) {
+            const href = links[i].getAttribute('href');
+            if (href && currentUrl.includes(href)) {
+                return links[i].textContent.trim();
+            }
+        }
+        return '';
+    }
+
+    // Сохраняем текущую главу
+    const title = getChapterTitle();
+    if (title) {
+        localStorage.setItem(LS_KEY, JSON.stringify({ url: currentUrl, title: title }));
+    }
+
+    // Проверяем, не зашли ли мы на другую главу, чем в прошлый раз
+    try {
+        const prev = JSON.parse(localStorage.getItem('shimmer-last-visit') || '{}');
+        const current = { url: currentUrl, title: title };
+        localStorage.setItem('shimmer-last-visit', JSON.stringify(current));
+
+        if (prev.url && prev.url !== currentUrl && prev.title && title) {
+            const banner = document.createElement('div');
+            banner.id = 'shimmer-continue-banner';
+            banner.innerHTML = '<span>Продолжить с <a href="' + prev.url + '">' + prev.title + '</a></span> <button id="shimmer-continue-dismiss">&times;</button>';
+            document.body.prepend(banner);
+
+            document.getElementById('shimmer-continue-dismiss').addEventListener('click', function() {
+                banner.remove();
+            });
+        }
+    } catch(e) {}
+})();
+
 // ===== 4/8 — Авто-скрытие хедера =====
 (function() {
     'use strict';

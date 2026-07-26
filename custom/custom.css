@@ -1,3 +1,46 @@
+/* ===== 5/8 — Баннер «Продолжить чтение» ===== */
+#shimmer-continue-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3000;
+    background: var(--links, #4183c4);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9em;
+    animation: slideDown 0.25s ease;
+}
+#shimmer-continue-banner a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#shimmer-continue-banner a:hover {
+    opacity: 0.85;
+}
+#shimmer-continue-dismiss {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.3em;
+    cursor: pointer;
+    opacity: 0.7;
+    line-height: 1;
+    padding: 0 4px;
+}
+#shimmer-continue-dismiss:hover {
+    opacity: 1;
+}
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
 /* ===== 4/8 — Авто-скрытие хедера ===== */
 .menu-bar.shimmer-header-hidden {
     transform: translateY(-100%);
