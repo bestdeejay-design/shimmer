@@ -122,6 +122,14 @@
     }
 })();
 
+// ===== 7/8 — Регистрация Service Worker (Offline) =====
+(function() {
+    'use strict';
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').catch(function() {});
+    }
+})();
+
 // ===== 5/8 — Сохранение прогресса чтения =====
 (function() {
     'use strict';
