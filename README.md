@@ -1,5 +1,7 @@
 # Shimmer
 
+**English** · [Русский](README.ru.md)
+
 [![Читать онлайн](https://img.shields.io/badge/%D0%A7%D0%B8%D1%82%D0%B0%D1%82%D1%8C-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-3b82f6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://bestdeejay-design.github.io/shimmer/)
 
 > Death is not the end. Consciousness does not die — it resonates.
