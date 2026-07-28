@@ -32,4 +32,5 @@
   - [Timeline of the Universe](./lore/timeline.md)
   - [World of En-Ra](./lore/world-of-en-ra.md)
   - [World of Kai](./lore/world-of-kai.md)
-  - [World of Lira](./lore/world-of-lira.md)
+   - [World of Lira](./lore/world-of-lira.md)
+- [About](./about.md)

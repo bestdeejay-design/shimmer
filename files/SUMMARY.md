@@ -30,4 +30,5 @@
   - [Хронология вселенной](./lore/timeline.md)
   - [Мир Эн-Ра](./lore/world-of-en-ra.md)
   - [Мир Кая](./lore/world-of-kai.md)
-  - [Мир Лиры](./lore/world-of-lira.md)
+   - [Мир Лиры](./lore/world-of-lira.md)
+- [О книге](./about.md)
