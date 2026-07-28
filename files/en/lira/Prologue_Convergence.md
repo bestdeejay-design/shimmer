@@ -42,7 +42,7 @@ The shadow took shape.
 
 Not gradually, the way everything else had grown stronger in her long waiting, but in a rush — the way a face emerges from fog when you come a little closer. Lira felt it not as sound and not as light, but as a recognition that began somewhere deeper than thought: warmth, trembling, unsure of itself — and real. So real that for a moment she forgot to fear her own fading.
 
-*You have come,* — she thought, and the thought trembled harder than anything in the nine hundred and ninety-nine years.
+*You have come,* — she thought, and the thought trembled harder than anything in her nine hundred and ninety-nine years.
 
 She had not called him — she could not, the bond was still too thin, too new to carry anything more than feeling. But the feeling she set into that thin thread was so vast that no measure could hold it: *I am here. I have always been here. Please, make it in time.*
 
@@ -50,7 +50,7 @@ She had not called him — she could not, the bond was still too thin, too new t
 
 What followed happened so fast and so slowly at the same time that afterward — if there were an afterward in which to remember — she would not have undertaken to lay it out in order.
 
-The cloth of her kept thinning. Each torn thread came back not as pain, but as relief — that special, frightening relief with which the body at last stops fighting the sleep it has so long refused to fall into. She felt how the very boundary that separated "she" from "Stream" was thinning — that same boundary she had held for all nine hundred and ninety-nine years by will alone, only for this moment.
+Her cloth kept thinning. Each torn thread came back not as pain, but as relief — that special, frightening relief with which the body at last stops fighting the sleep it has so long refused to fall into. She felt how the very boundary that separated "she" from "Stream" was thinning — that same boundary she had held for all nine hundred and ninety-nine years by will alone, only for this moment.
 
 *You are not late,* — she said into the dark, which was no longer quite dark, but something ready to become a different kind of light. *You have come. These are different things.*
 
@@ -95,4 +95,3 @@ And now, at last, when there was nothing left to fear, and no reason to hurry, s
 She began at the very beginning.
 
 From the day she was born already knowing who she was — in a world where the bond between generations was as natural as the first breath.
-

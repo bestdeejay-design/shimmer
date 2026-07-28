@@ -11,6 +11,7 @@ no-section-label = true
 additional-css = ["custom/custom.css"]
 additional-js = ["custom/custom.js"]
 site-url = "/en/"
+favicon = "favicon.svg"
 
 [output.html.playground]
 runnable = false

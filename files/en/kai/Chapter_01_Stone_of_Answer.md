@@ -55,13 +55,13 @@ He was dressed simply, much the way Kai's own people dressed — coarse cloth, d
 
 The old man was looking at the stars. And he spoke — quietly, but in such a way that the words filled all the space of the dream:
 
-> "I do not ask. I hear."
+"I do not ask. I hear."
 
-In the same instant the sky split. Not with thunder, not with fire — with a stream. Thousands, millions of thin threads of light poured down, like rivers, like voices, like someone's long-forgotten dreams, and entered the old man — into his raised hands, into his chest, into his face thrown back to the sky.
+In the same instant the sky split. Not with thunder, not with fire — with a Stream. Thousands, millions of thin threads of light poured down, like rivers, like voices, like someone's long-forgotten dreams, and entered the old man — into his raised hands, into his chest, into his face thrown back to the sky.
 
 He fell to his knees. He wept. And at the same time — he smiled, as though pain and joy had at last ceased to be two different things.
 
-> "You are not alone," he said into the stream that was devouring and filling him at once. "You are together."
+"You are not alone," he said into the Stream that was devouring and filling him at once. "You are together."
 
 And then Kai saw her.
 
@@ -115,7 +115,7 @@ At first in the sand, with a finger — and he would erase it as soon as the sun
 
 His mother found one such drawing under a mat and was silent for a long time, studying it in the light of the hearth. Then she said only:
 
-> "Hide it. And do not draw anymore."
+"Hide it. And do not draw anymore."
 
 But she did not ask what it was. She was afraid to ask — because if a son sees spirits, then either it is a gift that must not be spoken of aloud, or it is an illness for which one is punished, and between these two she did not wish to choose.
 
@@ -126,4 +126,3 @@ He had not chosen this path — so, at least, it seemed to him. He had simply an
 He did not yet know her name.
 
 But she — from the very first day, thousands of years ahead of that night — already knew his.
-
