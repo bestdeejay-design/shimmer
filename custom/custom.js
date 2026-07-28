@@ -350,6 +350,31 @@
     });
 })();
 
+// ===== 8/8 — Переключатель языка (RU / EN) =====
+(function() {
+    'use strict';
+
+    var path = window.location.pathname;
+    var isEnglish = path === '/en' || path === '/en/' || path.indexOf('/en/') === 0;
+
+    var langBtn = document.createElement('button');
+    langBtn.id = 'mdbook-lang-switch';
+    langBtn.className = 'icon-button';
+    langBtn.type = 'button';
+    langBtn.title = isEnglish ? 'Русская версия' : 'English version';
+    langBtn.setAttribute('aria-label', langBtn.title);
+    langBtn.textContent = isEnglish ? 'RU' : 'EN';
+
+    langBtn.addEventListener('click', function() {
+        window.location.href = isEnglish ? '/' : '/en/';
+    });
+
+    var rightButtons = document.querySelector('.menu-bar .right-buttons');
+    if (rightButtons) {
+        rightButtons.appendChild(langBtn);
+    }
+})();
+
 // ===== 7/8 — Регистрация Service Worker (Offline) =====
 (function() {
     'use strict';

@@ -24,8 +24,21 @@ jobs:
         with:
           mdbook-version: '0.5.4'
 
-      - name: Build book
+      - name: Build Russian book
         run: mdbook build
+
+      - name: Build English book
+        env:
+          MDBOOK_BOOK__TITLE: "Shimmer"
+          MDBOOK_BOOK__SRC: "files/en"
+          MDBOOK_BOOK__DESCRIPTION: "A sci-fi saga about the eternity of consciousness, cycles of time, and the power of dreams."
+          MDBOOK_OUTPUT__HTML__SITE_URL: "/en/"
+        run: |
+          mdbook build -d temp-en
+          mkdir -p book/html/en
+          mv temp-en/html/* book/html/en/
+          rm -rf temp-en
+          cp book/html/sw.js book/html/en/sw.js 2>/dev/null || true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

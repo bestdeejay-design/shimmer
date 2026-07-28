@@ -1,0 +1,19 @@
+[book]
+title = "Shimmer"
+authors = ["bestdeejay-design"]
+description = "A sci-fi saga about the eternity of consciousness, cycles of time, and the power of dreams."
+src = "files/en"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+no-section-label = true
+additional-css = ["custom/custom.css"]
+additional-js = ["custom/custom.js"]
+site-url = "/en/"
+
+[output.html.playground]
+runnable = false
+
+[output.epub]
+optional = true
