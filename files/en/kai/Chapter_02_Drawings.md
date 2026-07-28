@@ -19,7 +19,7 @@ Kai did not know why he drew her more often than the rest. He did not even know 
 
 His mother did not notice at first.
 
-Nira came in to wake him that morning, as she always did — and saw the board, leaning against the wall, not yet put away. Tower. Old man. Girl. She thought: a child at play, it will pass, children draw all kinds of things — and went out to brew the morning draft, as though she had seen nothing.
+Nira came in to wake him that morning, as she always did — and saw the board, leaning against the wall, not yet put away. Tower. Old man. Girl. She thought: a child at play, it will pass, children draw all kinds of things — and went out to brew the morning draught, as though she had seen nothing.
 
 The next day the drawing was different. The same tower, the same old man — but this time the girl was reaching forward, toward the viewer, as though calling. Nira stood over the board longer than she would have liked, and said nothing.
 
@@ -61,7 +61,7 @@ He could no longer unlearn to remember. Just as one cannot unlearn to breathe.
 
 His mother delivered the prohibition that evening, by the hearth, without looking into his eyes.
 
-> "Draw no more," she said. "It is dangerous. Do you hear me?"
+"Draw no more," she said. "It is dangerous. Do you hear me?"
 
 Kai nodded.
 

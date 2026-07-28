@@ -23,7 +23,7 @@ He felt the weight in his own hands, as though they really were his hands. The f
 
 "I do not ask," the old man said, and the stars above him trembled. "I hear."
 
-The stream poured down. Not into the old man — now into both of them at once, as though the line between the one who had asked thousands of years ago and the one who was listening now had ceased to exist at all.
+The Stream poured down. Not into the old man — now into both of them at once, as though the line between the one who had asked thousands of years ago and the one who was listening now had ceased to exist at all.
 
 Kai fell. He wept. He smiled — in the same inexplicable way the old man had smiled before, as though joy and pain had finally admitted that they had always been the same feeling, only wearing different names.
 
@@ -55,7 +55,7 @@ With all of it at once, not in language, but in the very core of what he was, Ka
 
 ---
 
-The stream stirred.
+The Stream stirred.
 
 Not as a splash, not as a jolt — as an inhale, after something had not breathed for a very long time. The crystal on his chest did not glow — it flared with a sound no one around him could have heard, and yet this sound changed something so deep that the whole world around Kai went still for a moment, as though listening together with him.
 

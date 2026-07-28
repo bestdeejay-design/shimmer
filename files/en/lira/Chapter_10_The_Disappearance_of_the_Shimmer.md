@@ -43,7 +43,7 @@ They fell silent again — but this silence was no longer a question. It was a r
 
 "Every Architect," said Kai quietly, more to himself than to her, "carries the gift not in spite of his fear. Out of it."
 
-"Then the Ninth after you," answered Lira, "will carry something of his own. Born of what you do not yet know you are afraid of."
+"Then the Tenth after you," answered Lira, "will carry something of his own. Born of what you do not yet know you are afraid of."
 
 ---
 

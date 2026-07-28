@@ -35,7 +35,7 @@ He walked along this strip for three days, passing the familiar points in a new 
 
 There, at the edge, where the baked sand gave way back to ordinary, loose sand, obedient to the wind, lay another stone.
 
-Smaller than the first. Without that jolt of recognition that had happened six years before in the dark of the Silent Walls. But when Kai touched it, what came was not a vision, not a voice — a feeling came, simple and deafening at once: a pattern.
+Smaller than the first. Without that jolt of recognition that had happened ten years before in the dark of the Silent Walls. But when Kai touched it, what came was not a vision, not a voice — a feeling came, simple and deafening at once: a pattern.
 
 On the stone, barely visible, the same curve he had traced the night before with a stick on the ground behind the house had been carved. The same arc. The same pressure of the hand.
 
