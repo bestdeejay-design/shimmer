@@ -9,17 +9,6 @@
     display: none !important;
 }
 
-/* ===== Переключатель языка ===== */
-#mdbook-lang-switch {
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.5px;
-    padding: 0 6px !important;
-    color: var(--icons, #8c8c8c) !important;
-}
-#mdbook-lang-switch:hover {
-    color: var(--icons-hover, #000) !important;
-}
 /* ⚙ кнопка */
 #mdbook-header-settings {
     font-size: 1.2em;
