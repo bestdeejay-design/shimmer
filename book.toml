@@ -10,7 +10,6 @@ preferred-dark-theme = "navy"
 no-section-label = true
 additional-css = ["custom/custom.css"]
 additional-js = ["custom/custom.js"]
-favicon = "favicon.svg"
 
 [output.html.playground]
 runnable = false
