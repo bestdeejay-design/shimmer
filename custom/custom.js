@@ -350,14 +350,21 @@
     });
 })();
 
-// ===== Простая ссылка на другую версию =====
+// ===== Ссылка на другую версию =====
 (function() {
     var path = window.location.pathname;
-    var isEn = path.indexOf('/en/') === 0 || path === '/en' || path === '/en/';
+    var enIdx = path.indexOf('/en/');
+    var isEn = enIdx > 0 || path === '/en' || path.endsWith('/en');
+    var siteBase = '/';
+    if (enIdx > 0) {
+        siteBase = path.substring(0, enIdx + 1);
+    } else if (path.indexOf('/', 1) > 0) {
+        siteBase = path.substring(0, path.indexOf('/', 1) + 1);
+    }
     var rb = document.querySelector('.menu-bar .right-buttons');
     if (!rb) return;
     var a = document.createElement('a');
-    a.href = isEn ? '/' : '/en/';
+    a.href = isEn ? siteBase : siteBase + 'en/';
     a.className = 'icon-button';
     a.textContent = isEn ? 'RU' : 'EN';
     a.title = isEn ? 'Русская версия' : 'English version';
