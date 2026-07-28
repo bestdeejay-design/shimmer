@@ -11,7 +11,7 @@ The stars were as they always were. But that night it seemed to him — they wer
 
 ---
 
-The crystal at his waist — the very first one, found six years before in the dark of the Silent Walls — had long since stopped being just warm at night. Now it sometimes glowed on its own, for no reason, with a faint steady light, like an ember. Kai had long ago taken this as part of himself, as one more sense added to the five familiar ones — and that night, lying on the cooling sand, he did not draw, did not try to speak, did not search for anything. He just listened.
+The crystal at his waist — the very first one, found eight years before in the dark of the Silent Walls — had long since stopped being just warm at night. Now it sometimes glowed on its own, for no reason, with a faint steady light, like an ember. Kai had long ago taken this as part of himself, as one more sense added to the five familiar ones — and that night, lying on the cooling sand, he did not draw, did not try to speak, did not search for anything. He just listened.
 
 Not with his ears. With his skin. With his bones. With that memory which, by all the laws of Tamar, he should not have had.
 

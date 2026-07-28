@@ -47,7 +47,7 @@ He saw how that breath had once been broken.
 
 Not by a storm, not by a war — by a silence that had fallen all at once, as though someone had, in a single motion, dammed the channel along which water had long been flowing. He did not understand what had caused it. He saw only the faces — confused, frightened, searching for the voice that had always been near and had suddenly gone missing — and the way the fear of that sudden muteness had slowly, over generations, turned into law: do not listen to yourself, do not listen to the emptiness, do not seek what once betrayed you with silence.
 
-Thus the Circle of Sand was born. Not out of cruelty. Out of a grief so great that its only way to survive was to be forgotten.
+Thus the Circle of Sand was born. Not out of cruelty. Out of a grief so great that, over generations, no one called it grief any longer — they called it wisdom instead.
 
 ---
 
@@ -65,7 +65,7 @@ He told no one. He hid the new crystal beside the first, at his waist, and for m
 
 He understood what he had not been able to understand before: the fear of his people was not stupidity. It was the memory of a loss so vast that its only way to survive had been forgetting. The Circle of Sand did not protect people from madness. It protected them from loving the voice again — and losing it again.
 
-Kai did not know whether he would ever forgive himself for not being able to stop. But he knew something else: what he heard was not his private curse. It had been shared. Once, it had belonged to everyone. And somewhere — he felt it as clearly as he felt thirst — it was waiting not only for him, to return.
+Kai did not know whether he would ever forgive himself for not being able to stop. But he knew something else: what he heard was not his private curse. It had been shared. Once, it had belonged to everyone. And somewhere — he felt it as clearly as he felt thirst — it was waiting to return, and not for him alone.
 
 ---
 
