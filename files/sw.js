@@ -1,35 +1,7 @@
-const CACHE = 'shimmer-v2';
-const PRECACHE = [
-    './',
-    './kai/Глава_01_Камень_Ответа.html',
-    './kai/Глава_02_Рисунки.html',
-    './kai/Глава_03_Храм_Без_Голоса.html',
-    './kai/Глава_04_Башня_Шпиль.html',
-    './kai/Глава_05_Сад_Камней.html',
-    './kai/Глава_06_Гробница_Первых.html',
-    './kai/Глава_07_Голос_из_пустыни.html',
-    './kai/Глава_08_Я_здесь.html',
-    './kai/Глава_09_Вспышка.html',
-    './kai/Глава_10_Тропа.html',
-    './kai/Глава_11_За_горизонт_часа.html',
-    './kai/Глава_12_Ты_опоздал_Схождение.html',
-    './lira/Пролог_Схождение_Лира.html',
-    './lira/Глава_Лиры_01_Рождённая_знающей.html',
-    './lore/psi-stream.html',
-    './lore/the-architects.html',
-    './lore/the-shimmer.html',
-    './lore/timeline.html',
-    './lore/world-of-en-ra.html',
-    './lore/world-of-kai.html',
-    './lore/world-of-lira.html'
-];
+const CACHE = 'shimmer-v3';
 
 self.addEventListener('install', function(event) {
-    event.waitUntil(
-        caches.open(CACHE).then(function(cache) {
-            return cache.addAll(PRECACHE);
-        })
-    );
+    // Не прекешируем ничего — даём страницам кешироваться по мере посещения
     self.skipWaiting();
 });
 
