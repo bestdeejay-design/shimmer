@@ -1,0 +1,264 @@
+- generic [ref=f3e2]:
+  - navigation "Table of contents" [ref=f3e3]:
+    - list [ref=f3e5]:
+      - listitem [ref=f3e6]:
+        - generic [ref=f3e8]:
+          - strong [ref=f3e9]: "1."
+          - text: Book of Kai
+        - list [ref=f3e10]:
+          - listitem [ref=f3e11]:
+            - link "Chapter 1. The Stone of Answer" [ref=f3e13] [cursor=pointer]:
+              - /url: kai/Chapter_01_Stone_of_Answer.html
+              - strong [ref=f3e14]: 1.1.
+              - text: Chapter 1. The Stone of Answer
+            - list [ref=f3e16]:
+              - listitem [ref=f3e17]:
+                - link "The Stone of Answer" [ref=f3e19] [cursor=pointer]:
+                  - /url: "#the-stone-of-answer"
+          - listitem [ref=f3e20]:
+            - link "Chapter 2. Drawings" [ref=f3e22] [cursor=pointer]:
+              - /url: kai/Chapter_02_Drawings.html
+              - strong [ref=f3e23]: 1.2.
+              - text: Chapter 2. Drawings
+          - listitem [ref=f3e24]:
+            - link "Chapter 3. Temple of No Voice" [ref=f3e26] [cursor=pointer]:
+              - /url: kai/Chapter_03_Temple_of_No_Voice.html
+              - strong [ref=f3e27]: 1.3.
+              - text: Chapter 3. Temple of No Voice
+          - listitem [ref=f3e28]:
+            - link "Chapter 4. The Spire" [ref=f3e30] [cursor=pointer]:
+              - /url: kai/Chapter_04_The_Spire.html
+              - strong [ref=f3e31]: 1.4.
+              - text: Chapter 4. The Spire
+          - listitem [ref=f3e32]:
+            - link "Chapter 5. Garden of Stones" [ref=f3e34] [cursor=pointer]:
+              - /url: kai/Chapter_05_Garden_of_Stones.html
+              - strong [ref=f3e35]: 1.5.
+              - text: Chapter 5. Garden of Stones
+          - listitem [ref=f3e36]:
+            - link "Chapter 6. Tomb of the First Ones" [ref=f3e38] [cursor=pointer]:
+              - /url: kai/Chapter_06_Tomb_of_the_First_Ones.html
+              - strong [ref=f3e39]: 1.6.
+              - text: Chapter 6. Tomb of the First Ones
+          - listitem [ref=f3e40]:
+            - link "Chapter 7. Voice from the Desert" [ref=f3e42] [cursor=pointer]:
+              - /url: kai/Chapter_07_Voice_from_the_Desert.html
+              - strong [ref=f3e43]: 1.7.
+              - text: Chapter 7. Voice from the Desert
+          - listitem [ref=f3e44]:
+            - link "Chapter 8. I Am Here" [ref=f3e46] [cursor=pointer]:
+              - /url: kai/Chapter_08_I_Am_Here.html
+              - strong [ref=f3e47]: 1.8.
+              - text: Chapter 8. I Am Here
+          - listitem [ref=f3e48]:
+            - link "Chapter 9. The Flash" [ref=f3e50] [cursor=pointer]:
+              - /url: kai/Chapter_09_The_Flash.html
+              - strong [ref=f3e51]: 1.9.
+              - text: Chapter 9. The Flash
+          - listitem [ref=f3e52]:
+            - link "Chapter 10. The Path" [ref=f3e54] [cursor=pointer]:
+              - /url: kai/Chapter_10_The_Path.html
+              - strong [ref=f3e55]: 1.10.
+              - text: Chapter 10. The Path
+          - listitem [ref=f3e56]:
+            - link "Chapter 11. Beyond the Horizon" [ref=f3e58] [cursor=pointer]:
+              - /url: kai/Chapter_11_Beyond_the_Horizon.html
+              - strong [ref=f3e59]: 1.11.
+              - text: Chapter 11. Beyond the Horizon
+          - listitem [ref=f3e60]:
+            - link "Chapter 12. You Are Too Late. Convergence" [ref=f3e62] [cursor=pointer]:
+              - /url: kai/Chapter_12_You_Are_Too_Late_Convergence.html
+              - strong [ref=f3e63]: 1.12.
+              - text: Chapter 12. You Are Too Late. Convergence
+      - listitem [ref=f3e64]:
+        - generic [ref=f3e66]:
+          - strong [ref=f3e67]: "2."
+          - text: Book of Lira
+        - list [ref=f3e68]:
+          - listitem [ref=f3e69]:
+            - link "Prologue. Convergence" [ref=f3e71] [cursor=pointer]:
+              - /url: lira/Prologue_Convergence.html
+              - strong [ref=f3e72]: 2.1.
+              - text: Prologue. Convergence
+          - listitem [ref=f3e73]:
+            - link "Chapter 1. Born Knowing" [ref=f3e75] [cursor=pointer]:
+              - /url: lira/Chapter_01_Born_Knowing.html
+              - strong [ref=f3e76]: 2.2.
+              - text: Chapter 1. Born Knowing
+          - listitem [ref=f3e77]:
+            - link "Chapter 2. The Student of Or-Kim" [ref=f3e79] [cursor=pointer]:
+              - /url: lira/Chapter_02_The_Student_of_Or-Kim.html
+              - strong [ref=f3e80]: 2.3.
+              - text: Chapter 2. The Student of Or-Kim
+          - listitem [ref=f3e81]:
+            - link "Chapter 3. The Initiation" [ref=f3e83] [cursor=pointer]:
+              - /url: lira/Chapter_03_The_Initiation.html
+              - strong [ref=f3e84]: 2.4.
+              - text: Chapter 3. The Initiation
+          - listitem [ref=f3e85]:
+            - link "Chapter 4. Path of Artifacts" [ref=f3e87] [cursor=pointer]:
+              - /url: lira/Chapter_04_Path_of_Artifacts.html
+              - strong [ref=f3e88]: 2.5.
+              - text: Chapter 4. Path of Artifacts
+          - listitem [ref=f3e89]:
+            - link "Chapter 5. The World That Forgot to Need" [ref=f3e91] [cursor=pointer]:
+              - /url: lira/Chapter_05_The_World_That_Forgot_to_Need.html
+              - strong [ref=f3e92]: 2.6.
+              - text: Chapter 5. The World That Forgot to Need
+          - listitem [ref=f3e93]:
+            - link "Chapter 6. The First Shadow" [ref=f3e95] [cursor=pointer]:
+              - /url: lira/Chapter_06_The_First_Shadow.html
+              - strong [ref=f3e96]: 2.7.
+              - text: Chapter 6. The First Shadow
+          - listitem [ref=f3e97]:
+            - link "Chapter 7. The Flash" [ref=f3e99] [cursor=pointer]:
+              - /url: lira/Chapter_07_The_Flash.html
+              - strong [ref=f3e100]: 2.8.
+              - text: Chapter 7. The Flash
+          - listitem [ref=f3e101]:
+            - link "Chapter 8. A Thousand Years of Silence" [ref=f3e103] [cursor=pointer]:
+              - /url: lira/Chapter_08_A_Thousand_Years_of_Silence.html
+              - strong [ref=f3e104]: 2.9.
+              - text: Chapter 8. A Thousand Years of Silence
+          - listitem [ref=f3e105]:
+            - link "Chapter 9. Temple of No Voice" [ref=f3e107] [cursor=pointer]:
+              - /url: lira/Chapter_09_Temple_of_No_Voice.html
+              - strong [ref=f3e108]: 2.10.
+              - text: Chapter 9. Temple of No Voice
+          - listitem [ref=f3e109]:
+            - link "Chapter 10. The Disappearance of the Shimmer" [ref=f3e111] [cursor=pointer]:
+              - /url: lira/Chapter_10_The_Disappearance_of_the_Shimmer.html
+              - strong [ref=f3e112]: 2.11.
+              - text: Chapter 10. The Disappearance of the Shimmer
+      - listitem [ref=f3e113]:
+        - generic [ref=f3e115]:
+          - strong [ref=f3e116]: "3."
+          - text: Lore
+        - list [ref=f3e117]:
+          - listitem [ref=f3e118]:
+            - link "Psi-Stream" [ref=f3e120] [cursor=pointer]:
+              - /url: lore/psi-stream.html
+              - strong [ref=f3e121]: 3.1.
+              - text: Psi-Stream
+          - listitem [ref=f3e122]:
+            - link "The Architects" [ref=f3e124] [cursor=pointer]:
+              - /url: lore/the-architects.html
+              - strong [ref=f3e125]: 3.2.
+              - text: The Architects
+          - listitem [ref=f3e126]:
+            - link "The Shimmer" [ref=f3e128] [cursor=pointer]:
+              - /url: lore/the-shimmer.html
+              - strong [ref=f3e129]: 3.3.
+              - text: The Shimmer
+          - listitem [ref=f3e130]:
+            - link "Timeline of the Universe" [ref=f3e132] [cursor=pointer]:
+              - /url: lore/timeline.html
+              - strong [ref=f3e133]: 3.4.
+              - text: Timeline of the Universe
+          - listitem [ref=f3e134]:
+            - link "World of En-Ra" [ref=f3e136] [cursor=pointer]:
+              - /url: lore/world-of-en-ra.html
+              - strong [ref=f3e137]: 3.5.
+              - text: World of En-Ra
+          - listitem [ref=f3e138]:
+            - link "World of Kai" [ref=f3e140] [cursor=pointer]:
+              - /url: lore/world-of-kai.html
+              - strong [ref=f3e141]: 3.6.
+              - text: World of Kai
+          - listitem [ref=f3e142]:
+            - link "World of Lira" [ref=f3e144] [cursor=pointer]:
+              - /url: lore/world-of-lira.html
+              - strong [ref=f3e145]: 3.7.
+              - text: World of Lira
+      - listitem [ref=f3e146]:
+        - link "About" [ref=f3e148] [cursor=pointer]:
+          - /url: about.html
+          - strong [ref=f3e149]: "4."
+          - text: About
+  - generic [ref=f3e153]:
+    - generic [ref=f3e155]:
+      - generic [ref=f3e156]:
+        - generic "Toggle Table of Contents" [ref=f3e157] [cursor=pointer]
+        - button "Change theme" [ref=f3e161] [cursor=pointer]
+        - text: ✓
+        - button "Toggle Searchbar" [ref=f3e165] [cursor=pointer]
+      - heading "Shimmer" [level=1] [ref=f3e169] [cursor=pointer]
+      - link "Print this book" [ref=f3e171] [cursor=pointer]:
+        - /url: print.html
+    - generic [ref=f3e175]:
+      - main [ref=f3e176]:
+        - heading [level=1] [ref=f3e177]:
+          - link "Chapter 1. Kai’s Book" [ref=f3e178] [cursor=pointer]:
+            - /url: "#chapter-1-kais-book"
+        - heading [level=2] [ref=f3e179]:
+          - link "The Stone of Answer" [ref=f3e180] [cursor=pointer]:
+            - /url: "#the-stone-of-answer"
+        - paragraph [ref=f3e181]: Children called the place the Silent Walls.
+        - paragraph [ref=f3e182]: Adults called it nothing at all — they simply looked away when a path happened to lead past, and quickened their step, as though the direction itself might be overheard. They said a boy from the Water Finders’ clan had once climbed in there and never come out. Some swore the sand had taken him. Others — that he had taken the sand with him, and from that day the dune by the eastern wall had not moved, as though the wind had been forbidden.
+        - paragraph [ref=f3e183]: Kai believed neither. He came here every morning — not out of stubbornness, nor out of a courage he did not, in truth, have much of — but because here, among the fallen slabs, something was owed to him.
+        - paragraph [ref=f3e184]: He could not have explained to anyone what. Only that sometimes, when the wind shifted and passed through a crack in the southern wall, the stone would sing. Not the way people sing by a night fire, nor the way wind howls in empty jars. It was like a voice that had forgotten the words, but remembered that once it had them.
+        - paragraph [ref=f3e185]: "The elders would have called it a sin — to listen to such a thing. That ears were given to a person for the words of a neighbor, the shout of a herder, the voice of spirits at the harvest festival — not for catching the muttering of stone. To listen to oneself, they said, was the first door through which madness entered a person. And madness in the sands was not forgiven: water cost too much to be wasted on one who talked with emptiness."
+        - paragraph [ref=f3e186]: Kai listened. In secret. Every morning.
+        - separator [ref=f3e187]
+        - paragraph [ref=f3e188]: That morning the sand still held the night’s chill, and the sun had only just touched the tops of the ruins, staining them a dim copper. Kai slipped through the narrow gap where the wall had long ago caved in, scraping his elbow on the stone edge, and found himself inside — where the shadow stood thick as water in a jar, and where no sound from outside could reach.
+        - paragraph [ref=f3e189]: He stood still, letting his eyes grow used to the dark.
+        - paragraph [ref=f3e190]: And then he saw the glint.
+        - paragraph [ref=f3e191]: "On the ground, among the rubble, lay something small — the size of his clenched fist, dark but not dull, as though the stone had drunk in all the light that had ever been here, and now grudgingly shared it. Its shape was strange: not round, not faceted, but elongated, with a curve like a closed eye, or like a word someone had tried to carve and abandoned halfway through."
+        - paragraph [ref=f3e192]: Kai crouched beside it. For a long time he did not dare to touch it.
+        - paragraph [ref=f3e193]: “You shouldn’t be here,” he said aloud, not knowing to whom. His voice sounded too loud for that silence.
+        - paragraph [ref=f3e194]: The stone did not answer. But something stirred in Kai’s chest that felt like recognition — the way one recognizes a house after a long journey, though one is seeing it for the first time.
+        - paragraph [ref=f3e195]:
+          - emphasis [ref=f3e196]: It was waiting.
+        - paragraph [ref=f3e197]: The thought came not from inside and not from outside, but from the side, and Kai was not sure whether he had thought it himself or heard it.
+        - paragraph [ref=f3e198]: He reached out. His fingers trembled — not from fear, but because his body seemed to know already what his mind did not yet. The tips of his fingers touched the cold surface.
+        - separator [ref=f3e199]
+        - paragraph [ref=f3e200]: The wind outside stopped.
+        - paragraph [ref=f3e201]: Kai knew it not by hearing, but with his whole body — the way one notices one’s own heart suddenly becoming audible. The sand ceased to whisper against the walls. His own breathing disappeared, as though someone had taken sound from him along with the light.
+        - paragraph [ref=f3e202]: "And in place of the pain he had been expecting — because that was what he had been taught: touch what is hidden, what is not yours, and you will be punished — a dream came."
+        - separator [ref=f3e203]
+        - paragraph [ref=f3e204]: He saw a tower.
+        - paragraph [ref=f3e205]: "It stood in a desert, but it was no ruin. It was alive — Kai could not have said where the word came from, he simply knew: the walls breathed, a faint light passed through them and faded, as though inside the stone someone was slowly inhaling and exhaling."
+        - paragraph [ref=f3e206]: Within, at the very base, stood an old man.
+        - paragraph [ref=f3e207]: He was dressed simply, much the way Kai’s own people dressed — coarse cloth, dusty sandals. But in his hands he held not a staff and not a bowl for water, but something invisible to the eye, something that trembled in the air between his palms and stretched upward, toward the dark sky, like a thread.
+        - paragraph [ref=f3e208]: "The old man was looking at the stars. And he spoke — quietly, but in such a way that the words filled all the space of the dream:"
+        - paragraph [ref=f3e209]: “I do not ask. I hear.”
+        - paragraph [ref=f3e210]: In the same instant the sky split. Not with thunder, not with fire — with a Stream. Thousands, millions of thin threads of light poured down, like rivers, like voices, like someone’s long-forgotten dreams, and entered the old man — into his raised hands, into his chest, into his face thrown back to the sky.
+        - paragraph [ref=f3e211]: He fell to his knees. He wept. And at the same time — he smiled, as though pain and joy had at last ceased to be two different things.
+        - paragraph [ref=f3e212]: “You are not alone,” he said into the Stream that was devouring and filling him at once. “You are together.”
+        - paragraph [ref=f3e213]: And then Kai saw her.
+        - separator [ref=f3e214]
+        - paragraph [ref=f3e215]: "The girl was standing — no, not standing: she was part of the stream itself, woven of the same light that poured from the heavens. A white dress, pale, almost colorless hair, which seemed to be a continuation of the radiance rather than separate from it."
+        - paragraph [ref=f3e216]: She did not look at the old man with pity. In her gaze there was pride. And love. And something else — fine, long-standing, like the sorrow of a person who knows the end of a story long before its beginning.
+        - paragraph [ref=f3e217]: "She said something — Kai knew none of that language, not a single word he could have repeated upon waking — but he understood every thought, as though it had entered him directly, bypassing the ears:"
+        - paragraph [ref=f3e218]:
+          - emphasis [ref=f3e219]: You are the first. But you are not the last. He will come. He will see this. He will understand.
+        - paragraph [ref=f3e220]: And then she stopped looking at the old man.
+        - paragraph [ref=f3e221]: She looked at Kai.
+        - paragraph [ref=f3e222]: Directly. Through the dream, through the years he could not count, through whatever separated him from her as surely as nothing in the whole world — a distance for which no word had yet been invented.
+        - separator [ref=f3e223]
+        - paragraph [ref=f3e224]: Kai fell.
+        - paragraph [ref=f3e225]: His hand slipped from the stone, and he struck his back against the cold wall, gasping for air as though he had surfaced from the very bottom of a well. His heart beat so hard he heard it in his ears, in his throat, in the tips of his fingers.
+        - paragraph [ref=f3e226]: The stone lay beside him. Dark. Still. Nothing in it answered anymore.
+        - paragraph [ref=f3e227]: "But Kai knew — knew as surely as he knew that the sun rises in the east: what he had seen was not a dream in the way the elders cursed dreams. It had been. They — had been. And he himself, in some way, had also been there among them, not merely watching from the side."
+        - paragraph [ref=f3e228]: He picked up the stone, wrapped it in a strip torn from his shirt, and hid it at his waist. On the way home he did not speak a word to anyone.
+        - separator [ref=f3e229]
+        - paragraph [ref=f3e230]: From that day, every night, Kai saw the same dream.
+        - paragraph [ref=f3e231]: The same tower. The same old man with the invisible thread in his hands. The same girl standing in the stream of light, as though woven of it.
+        - paragraph [ref=f3e232]: He did not know that the tower was not merely a tower, but the Spire, of which no legend survived in his clan. He did not know that the old man was the one who, thousands of years later, would be called the first to hear the Psi-Stream. He did not know the girl’s name.
+        - paragraph [ref=f3e233]: "He knew only one thing, and this knowledge sat in him heavier than any word:"
+        - paragraph [ref=f3e234]:
+          - emphasis [ref=f3e235]: They know I am watching.
+        - separator [ref=f3e236]
+        - paragraph [ref=f3e237]: He stopped playing with the other children at the well. He stopped listening to the elders’ tales of demons that lived beneath the dunes. Every morning he went to the Silent Walls and sat there a long time, waiting for the stone to speak again — but it was silent, only at night, if he pressed it to his chest, did it grow faintly warm, as though beneath its skin something very slow was beating.
+        - paragraph [ref=f3e238]: And Kai began to draw.
+        - paragraph [ref=f3e239]: "At first in the sand, with a finger — and he would erase it as soon as the sun showed him what he had done. Then with charcoal, stolen from the smith, on a fragment of board: the tower, the old man with raised hands, the girl in the stream of light."
+        - paragraph [ref=f3e240]: "His mother found one such drawing under a mat and was silent for a long time, studying it in the light of the hearth. Then she said only:"
+        - paragraph [ref=f3e241]: “Hide it. And do not draw anymore.”
+        - paragraph [ref=f3e242]: But she did not ask what it was. She was afraid to ask — because if a son sees spirits, then either it is a gift that must not be spoken of aloud, or it is an illness for which one is punished, and between these two she did not wish to choose.
+        - paragraph [ref=f3e243]: Kai hid the board. But he did not stop drawing.
+        - paragraph [ref=f3e244]: He had not chosen this path — so, at least, it seemed to him. He had simply answered something that had been thrown in his direction long before his birth, and that had waited patiently, knowing that sooner or later someone would reach out a hand.
+        - paragraph [ref=f3e245]: He did not yet know her name.
+        - paragraph [ref=f3e246]: But she — from the very first day, thousands of years ahead of that night — already knew his.
+      - navigation "Page navigation" [ref=f3e247]:
+        - link "Next chapter" [ref=f3e248] [cursor=pointer]:
+          - /url: kai/Chapter_02_Drawings.html

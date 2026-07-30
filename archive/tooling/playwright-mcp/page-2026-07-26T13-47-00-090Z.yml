@@ -1,0 +1,122 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - link "Awesome AI Handbook" [ref=f6e4] [cursor=pointer]:
+      - /url: /awesome-ai-handbook/
+  - main "Content" [ref=f6e5]:
+    - generic [ref=f6e7]:
+      - heading "Awesome AI Handbook" [level=1] [ref=f6e8]
+      - blockquote [ref=f6e9]:
+        - paragraph [ref=f6e10]:
+          - text: "A practical guide to AI: from running your first local model to building your own agents."
+          - strong [ref=f6e11]: 52 files
+          - text: ·
+          - strong [ref=f6e12]: ~6 hours reading
+          - text: ·
+          - strong [ref=f6e13]: "Levels: beginner → advanced"
+      - paragraph [ref=f6e14]:
+        - strong [ref=f6e15]:
+          - link "Русский" [ref=f6e16] [cursor=pointer]:
+            - /url: /awesome-ai-handbook/README.ru.html
+        - text: ·
+        - strong [ref=f6e17]: English
+      - separator [ref=f6e18]
+      - heading "Quick Start" [level=2] [ref=f6e19]
+      - code [ref=f6e23]: "brew install ollama # macOS ollama run qwen3.5:4b # chat (~3.4 GB) — ready!"
+      - paragraph [ref=f6e24]:
+        - strong [ref=f6e25]: New to AI?
+        - text: →
+        - link "basics/" [ref=f6e26] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/basics/
+        - text: — start from zero, no terminal required.
+        - strong [ref=f6e27]: Already experienced?
+        - text: →
+        - link "file catalog" [ref=f6e28] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/catalog.html
+        - text: — find any topic in 10 seconds.
+      - separator [ref=f6e29]
+      - heading "Sections" [level=2] [ref=f6e30]
+      - table [ref=f6e31]:
+        - rowgroup [ref=f6e32]:
+          - row [ref=f6e33]:
+            - columnheader "Section" [ref=f6e34]
+            - columnheader "Description" [ref=f6e35]
+            - columnheader "Entry" [ref=f6e36]
+            - columnheader "Files" [ref=f6e37]
+            - columnheader "Level" [ref=f6e38]
+        - rowgroup [ref=f6e39]:
+          - row [ref=f6e40]:
+            - cell [ref=f6e41]:
+              - link "Zero Level" [ref=f6e42] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/
+            - 'cell "AI basics: terms, setup, hardware choice" [ref=f6e43]'
+            - cell [ref=f6e44]:
+              - code [ref=f6e45]: basics/
+            - cell "9" [ref=f6e46]
+            - cell [ref=f6e47]
+          - row [ref=f6e48]:
+            - cell [ref=f6e49]:
+              - link "Local Models" [ref=f6e50] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/
+            - cell "Running, choosing, tuning and optimizing models" [ref=f6e51]
+            - cell [ref=f6e52]:
+              - code [ref=f6e53]: local-models/
+            - cell "11" [ref=f6e54]
+            - cell "→" [ref=f6e55]
+          - row [ref=f6e56]:
+            - cell [ref=f6e57]:
+              - link "AI Agents" [ref=f6e58] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/agents/
+            - cell "Architecture, patterns, frameworks, tutorials" [ref=f6e59]
+            - cell [ref=f6e60]:
+              - code [ref=f6e61]: agents/
+            - cell "17" [ref=f6e62]
+            - cell "→" [ref=f6e63]
+          - row [ref=f6e64]:
+            - cell [ref=f6e65]:
+              - link "Use Cases" [ref=f6e66] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/use-cases/
+            - cell "Coding, RAG, automation, writing" [ref=f6e67]
+            - cell [ref=f6e68]:
+              - code [ref=f6e69]: use-cases/
+            - cell "5" [ref=f6e70]
+            - cell [ref=f6e71]
+          - row [ref=f6e72]:
+            - cell [ref=f6e73]:
+              - link "Resources" [ref=f6e74] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/resources/
+            - cell "Communities, courses, RU and EN materials" [ref=f6e75]
+            - cell [ref=f6e76]:
+              - code [ref=f6e77]: resources/
+            - cell "5" [ref=f6e78]
+            - cell "→" [ref=f6e79]
+      - blockquote [ref=f6e80]:
+        - paragraph [ref=f6e81]:
+          - strong [ref=f6e82]: Looking for a specific file?
+          - link "Open catalog →" [ref=f6e83] [cursor=pointer]:
+            - /url: /awesome-ai-handbook/catalog.html
+          - text: — full list of all 52 files with descriptions.
+      - separator [ref=f6e84]
+      - heading "Project Structure" [level=2] [ref=f6e85]
+      - code [ref=f6e89]: "awesome-ai-handbook/ │ ├── README.md, README.ru.md ← navigation (EN + RU) ├── catalog.md, catalog.ru.md ← full file catalog │ ├── basics/ # 🟢 zero level │ ├── README.md # learning paths │ ├── what-is-ai.md # AI, ML, LLM — without math │ ├── how-models-work.md # neural networks by analogy │ ├── cloud-vs-local.md # ChatGPT vs local │ ├── hardware-guide.md # RAM, VRAM, quantization │ ├── glossary.md # 35 terms │ ├── faq.md # 15+ common questions │ ├── learning-path.md # 10 steps: chat → agent │ ├── setup-windows.md # Windows installation │ └── setup-linux.md # Linux installation │ ├── local-models/ # 🔵 local inference │ ├── README.md # scenarios: beginner → pro │ ├── getting-started.md # 🟢 full Mac setup guide │ ├── running-models.md # from Ollama to HuggingFace │ ├── models.md # choosing by task │ ├── catalog.md # 50+ models with specs │ ├── quantization.md # Q4, Q5, Q8 — compression │ ├── memory-and-context.md # RAM, KV cache, context │ ├── tools.md # engine comparison │ ├── advanced-setup.md # 🔵 Modelfile, API, env │ ├── troubleshooting.md # common issues │ └── benchmarks/ │ └── apple-silicon.md # 🔵 tok/s on M1–M4 │ ├── agents/ # 🤖 AI agents │ ├── README.md # overview + minimal code │ ├── ready-made.md # 🟢 existing agents catalog │ ├── orchestrators.md # 🔵 orchestrators │ ├── skills.md # 🟡 skills, MCP, plugins │ ├── architecture.md # 🔵 agent architecture │ ├── patterns.md # 🔵 ReAct, Multi-Agent │ ├── frameworks.md # 🔵 LangGraph, CrewAI │ ├── multi-agent.md # 🔵 communication │ ├── memory.md # 🔵 long-term memory │ ├── prompting.md # 🔵 system prompts │ ├── ollama-for-agents.md # 🔵 tool calling │ ├── safety.md # 🔵 guardrails │ ├── evaluation.md # 🔵 testing │ └── tutorials/ │ ├── README.md # tutorial index │ ├── 01-first-agent.md # 🟢 first agent │ ├── 02-agent-team.md # 🟡 agent team │ └── 03-coding-agent.md # 🔴 coding agent │ ├── use-cases/ # 💼 applications │ ├── README.md # cases overview │ ├── coding.md # 🟡 Continue, Aider │ ├── rag.md # 🟡 Open WebUI, ChromaDB │ ├── automation.md # 🟡 n8n, Telegram bot │ └── writing.md # 🟡 content pipeline │ ├── resources/ # 📖 communities & courses │ ├── README.md # index │ ├── ru.md # 🟢 Russian resources │ ├── en.md # 🟡 English resources │ ├── courses.md # 🟢🟡 free courses │ └── communities.md # 🟢 Discord, Reddit │ ├── CONTRIBUTING.md # contributing guide ├── CODE_OF_CONDUCT.md # code of conduct └── SECURITY.md # security policy"
+      - separator [ref=f6e90]
+      - heading "Contributing" [level=2] [ref=f6e91]
+      - paragraph [ref=f6e92]:
+        - text: "Benchmarks, RU resources, tutorials, and fixes are welcome. Details:"
+        - link "CONTRIBUTING.md" [ref=f6e93] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/CONTRIBUTING.md
+        - text: ·
+        - link "Code of Conduct" [ref=f6e94] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/CODE_OF_CONDUCT.md
+      - heading "License" [level=2] [ref=f6e95]
+      - paragraph [ref=f6e96]:
+        - link "MIT" [ref=f6e97] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/LICENSE
+      - separator [ref=f6e98]
+      - paragraph [ref=f6e99]:
+        - emphasis [ref=f6e100]: Awesome AI Handbook — helping everyone explore AI, regardless of skill level or hardware.
+  - contentinfo [ref=f6e101]:
+    - generic [ref=f6e102]:
+      - heading [level=2] [ref=f6e103]:
+        - link "Awesome AI Handbook" [ref=f6e104] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/
+      - paragraph [ref=f6e107]: A practical guide to AI — from running models locally to building your own agents

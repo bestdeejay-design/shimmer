@@ -1,0 +1,239 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - link "Awesome AI Handbook" [ref=f7e4] [cursor=pointer]:
+      - /url: /awesome-ai-handbook/
+  - main "Content" [ref=f7e5]:
+    - generic [ref=f7e6]:
+      - 'heading "Zero Level: Getting Started" [level=1] [ref=f7e7]'
+      - blockquote [ref=f7e8]:
+        - paragraph [ref=f7e9]: For those who have never tried AI but want to learn — from basic concepts to running your first model. No prior knowledge required.
+      - paragraph [ref=f7e10]:
+        - link "← Awesome AI Handbook" [ref=f7e11] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/
+        - text: ·
+        - link "🇷🇺 Русский" [ref=f7e12] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/basics/README.ru.html
+      - separator [ref=f7e13]
+      - heading "Three Learning Paths" [level=2] [ref=f7e14]
+      - heading "Quick Start (5 min)" [level=3] [ref=f7e15]
+      - paragraph [ref=f7e16]: “Just want to try it — no terminal, no setup.”
+      - table [ref=f7e17]:
+        - rowgroup [ref=f7e18]:
+          - row [ref=f7e19]:
+            - columnheader "Step" [ref=f7e20]
+            - columnheader "What To Do" [ref=f7e21]
+        - rowgroup [ref=f7e22]:
+          - row [ref=f7e23]:
+            - cell "1" [ref=f7e24]
+            - cell [ref=f7e25]:
+              - link "What is AI and why it matters" [ref=f7e26] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/what-is-ai.html
+          - row [ref=f7e27]:
+            - cell "2" [ref=f7e28]
+            - cell [ref=f7e29]:
+              - text: Install
+              - strong [ref=f7e30]: LM Studio
+              - text: (
+              - link "lmstudio.ai" [ref=f7e31] [cursor=pointer]:
+                - /url: https://lmstudio.ai
+              - text: ) — a GUI app with buttons
+          - row [ref=f7e32]:
+            - cell "3" [ref=f7e33]
+            - cell "Download Qwen 3.5 4B directly inside LM Studio" [ref=f7e34]
+          - row [ref=f7e35]:
+            - cell "4" [ref=f7e36]
+            - cell "Start chatting — free, local, no cloud" [ref=f7e37]
+      - heading "Understand It (30 min)" [level=3] [ref=f7e38]
+      - paragraph [ref=f7e39]: “Want to learn how it works and set things up myself.”
+      - table [ref=f7e40]:
+        - rowgroup [ref=f7e41]:
+          - row [ref=f7e42]:
+            - columnheader "Step" [ref=f7e43]
+            - columnheader "Where To Go" [ref=f7e44]
+            - columnheader "Time" [ref=f7e45]
+        - rowgroup [ref=f7e46]:
+          - row [ref=f7e47]:
+            - cell "1" [ref=f7e48]
+            - cell [ref=f7e49]:
+              - link "What is AI?" [ref=f7e50] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/what-is-ai.html
+            - cell "5 min" [ref=f7e51]
+          - row [ref=f7e52]:
+            - cell "2" [ref=f7e53]
+            - cell [ref=f7e54]:
+              - link "How do neural networks work?" [ref=f7e55] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/how-models-work.html
+            - cell "10 min" [ref=f7e56]
+          - row [ref=f7e57]:
+            - cell "3" [ref=f7e58]
+            - cell [ref=f7e59]:
+              - link "Cloud or local?" [ref=f7e60] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/cloud-vs-local.html
+            - cell "5 min" [ref=f7e61]
+          - row [ref=f7e62]:
+            - cell "4" [ref=f7e63]
+            - cell [ref=f7e64]:
+              - link "Install Ollama" [ref=f7e65] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/getting-started.html
+            - cell "10 min" [ref=f7e66]
+          - row [ref=f7e67]:
+            - cell "5" [ref=f7e68]
+            - cell "Ask your first model questions" [ref=f7e69]
+            - cell "∞" [ref=f7e70]
+      - heading "Go Pro (2+ hours)" [level=3] [ref=f7e71]
+      - paragraph [ref=f7e72]: “Want to build a full local system for coding and automation.”
+      - table [ref=f7e73]:
+        - rowgroup [ref=f7e74]:
+          - row [ref=f7e75]:
+            - columnheader "Step" [ref=f7e76]
+            - columnheader "Where To Go" [ref=f7e77]
+            - columnheader "Time" [ref=f7e78]
+        - rowgroup [ref=f7e79]:
+          - row [ref=f7e80]:
+            - cell "1–3" [ref=f7e81]
+            - cell "Track above" [ref=f7e82]
+            - cell "20 min" [ref=f7e83]
+          - row [ref=f7e84]:
+            - cell "4" [ref=f7e85]
+            - cell [ref=f7e86]:
+              - link "What hardware do I need?" [ref=f7e87] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/hardware-guide.html
+            - cell "5 min" [ref=f7e88]
+          - row [ref=f7e89]:
+            - cell "5" [ref=f7e90]
+            - cell [ref=f7e91]:
+              - strong [ref=f7e92]: "Install:"
+              - link "Mac" [ref=f7e93] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/getting-started.html
+              - text: ·
+              - link "Windows" [ref=f7e94] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/setup-windows.html
+              - text: ·
+              - link "Linux" [ref=f7e95] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/setup-linux.html
+            - cell "15 min" [ref=f7e96]
+          - row [ref=f7e97]:
+            - cell "6" [ref=f7e98]
+            - cell [ref=f7e99]:
+              - link "How to run models" [ref=f7e100] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/running-models.html
+            - cell "15 min" [ref=f7e101]
+          - row [ref=f7e102]:
+            - cell "7" [ref=f7e103]
+            - cell [ref=f7e104]:
+              - link "Which model to choose" [ref=f7e105] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/models.html
+            - cell "10 min" [ref=f7e106]
+          - row [ref=f7e107]:
+            - cell "8" [ref=f7e108]
+            - cell [ref=f7e109]:
+              - link "Coding with AI" [ref=f7e110] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/use-cases/coding.html
+            - cell "20 min" [ref=f7e111]
+          - row [ref=f7e112]:
+            - cell "9" [ref=f7e113]
+            - cell [ref=f7e114]:
+              - link "Build an agent" [ref=f7e115] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/agents/tutorials/01-first-agent.html
+            - cell "30 min" [ref=f7e116]
+          - row [ref=f7e117]:
+            - cell "10" [ref=f7e118]
+            - cell [ref=f7e119]:
+              - link "Memory and context" [ref=f7e120] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/memory-and-context.html
+              - text: ·
+              - link "Quantization" [ref=f7e121] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/local-models/quantization.html
+            - cell "15 min" [ref=f7e122]
+      - separator [ref=f7e123]
+      - heading "Section Files" [level=2] [ref=f7e124]
+      - table [ref=f7e125]:
+        - rowgroup [ref=f7e126]:
+          - row [ref=f7e127]:
+            - columnheader "File" [ref=f7e128]
+            - columnheader "About" [ref=f7e129]
+            - columnheader "Time" [ref=f7e130]
+        - rowgroup [ref=f7e131]:
+          - row [ref=f7e132]:
+            - cell [ref=f7e133]:
+              - link "what-is-ai.md" [ref=f7e134] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/what-is-ai.html
+            - cell "AI, ML, LLM — without math" [ref=f7e135]
+            - cell "5 min" [ref=f7e136]
+          - row [ref=f7e137]:
+            - cell [ref=f7e138]:
+              - link "how-models-work.md" [ref=f7e139] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/how-models-work.html
+            - cell "Neural networks explained by analogy" [ref=f7e140]
+            - cell "10 min" [ref=f7e141]
+          - row [ref=f7e142]:
+            - cell [ref=f7e143]:
+              - link "cloud-vs-local.md" [ref=f7e144] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/cloud-vs-local.html
+            - cell "ChatGPT vs local — what to choose" [ref=f7e145]
+            - cell "5 min" [ref=f7e146]
+          - row [ref=f7e147]:
+            - cell [ref=f7e148]:
+              - link "hardware-guide.md" [ref=f7e149] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/hardware-guide.html
+            - 'cell "Hardware requirements: 8 GB RAM to server" [ref=f7e150]'
+            - cell "5 min" [ref=f7e151]
+          - row [ref=f7e152]:
+            - cell [ref=f7e153]:
+              - link "setup-windows.md" [ref=f7e154] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/setup-windows.html
+            - cell "Installing Ollama on Windows (native / WSL2)" [ref=f7e155]
+            - cell "10 min" [ref=f7e156]
+          - row [ref=f7e157]:
+            - cell [ref=f7e158]:
+              - link "setup-linux.md" [ref=f7e159] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/setup-linux.html
+            - cell "Installing Ollama on Linux (CPU / CUDA / Docker)" [ref=f7e160]
+            - cell "10 min" [ref=f7e161]
+          - row [ref=f7e162]:
+            - cell [ref=f7e163]:
+              - link "glossary.md" [ref=f7e164] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/glossary.html
+            - cell "Glossary of 35+ terms" [ref=f7e165]
+            - cell "∞" [ref=f7e166]
+          - row [ref=f7e167]:
+            - cell [ref=f7e168]:
+              - link "faq.md" [ref=f7e169] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/faq.html
+            - cell "15+ common beginner questions" [ref=f7e170]
+            - cell "5 min" [ref=f7e171]
+          - row [ref=f7e172]:
+            - cell [ref=f7e173]:
+              - link "learning-path.md" [ref=f7e174] [cursor=pointer]:
+                - /url: /awesome-ai-handbook/basics/learning-path.html
+            - 'cell "10-step plan: chat → agent" [ref=f7e175]'
+            - cell "10 min" [ref=f7e176]
+      - separator [ref=f7e177]
+      - heading "Related Sections" [level=2] [ref=f7e178]
+      - list [ref=f7e179]:
+        - listitem [ref=f7e180]:
+          - link "Local Models" [ref=f7e181] [cursor=pointer]:
+            - /url: /awesome-ai-handbook/local-models/
+          - text: — running, choosing, tuning models
+        - listitem [ref=f7e182]:
+          - link "AI Agents" [ref=f7e183] [cursor=pointer]:
+            - /url: /awesome-ai-handbook/agents/
+          - text: — building autonomous agents
+        - listitem [ref=f7e184]:
+          - link "Use Cases" [ref=f7e185] [cursor=pointer]:
+            - /url: /awesome-ai-handbook/use-cases/
+          - text: — practical AI applications
+      - separator [ref=f7e186]
+      - paragraph [ref=f7e187]:
+        - strong [ref=f7e188]: "Navigation:"
+        - link "← Back to main" [ref=f7e189] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/
+        - text: ·
+        - link "Catalog" [ref=f7e190] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/catalog.html
+  - contentinfo [ref=f7e191]:
+    - generic [ref=f7e192]:
+      - heading [level=2] [ref=f7e193]:
+        - link "Awesome AI Handbook" [ref=f7e194] [cursor=pointer]:
+          - /url: /awesome-ai-handbook/
+      - paragraph [ref=f7e197]: A practical guide to AI — from running models locally to building your own agents
