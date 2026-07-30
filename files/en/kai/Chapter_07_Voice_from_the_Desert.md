@@ -87,7 +87,7 @@ It did not go out.
 
 ---
 
-Far away, at the other edge of the Stream, Lira felt this answer as she had never felt anything before.
+Far away, at the other edge of the Stream, Lira received this answer as she had never received anything before.
 
 Not a tremor, not an echo — something she could have called recognition, if she had allowed herself that luxury. The boy had heard not her for the first time. He had heard the First — the one with whom everything had begun, the one whose voice was earth and pain, where her own had always been only light.
 

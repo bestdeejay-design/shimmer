@@ -163,15 +163,15 @@ Three consciousnesses, separated by millennia, in a single second are *joined* t
 | 1. The Stone of Answer | 8,001 SE | 10–11 years | Finds the stone. First dream with En-Ra. |
 | 2. The Drawings | 8,001–8,003 SE | 10–13 years | Hides drawings. Conflict with the Circle of Sand. |
 | 3. The Temple of No Voice | 8,004 SE | 13–14 years | For the first time hears many voices and the girl in white. |
-| 4. The Spire-Tower | 8,004 SE | 14 years | First contact with the "hum" of Architects. |
+| 4. The Spire | 8,004 SE | 14 years | First contact with the "hum" of Architects. |
 | 5. The Garden of Stones | 8,005 SE | 14–15 years | Walks the circle, touches the 8th statue (Lira). |
 | 6. The Tomb of the First Ones | 8,005 SE | 15 years | Learns the history of forgetting. Carries out a new crystal. |
 | 7. A Voice from the Desert | 8,006 SE | 16 years | For the first time hears En-Ra as a voice, not in a dream. |
 | 8. I Am Here | 8,007 SE | 17 years | For the first time answers into the Stream. En-Ra smiles. |
 | 9. The Flash | 8,008 SE | 18 years | Sees En-Ra's entry from within. Lira sees Kai. |
 | 10. The Path | 8,008–8,009 SE | 18–19 years | Finds the last artifacts, sees the arc on the stone. |
-| 11. Beyond the Edge of the Hour | 8,009–8,010 SE | 19–20 years | Hears 8 Architects + the Sea of Mute Centuries. |
-| 12. You Are Late / The Convergence | ~8,010 SE | ~20 years | Meets Lira. Lira becomes part of the Sea. |
+| 11. Beyond the Horizon of the Hour | 8,009–8,010 SE | 19–20 years | Hears 8 Architects + the Sea of Mute Centuries. |
+| 12. You Are Too Late. The Convergence | ~8,010 SE | ~20 years | Meets Lira. Lira becomes part of the Sea. |
 
 ### Lira's Book
 

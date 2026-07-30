@@ -65,7 +65,7 @@ Lira did not at once understand what had happened.
 
 She had come to this memory so often that she had stopped counting the times — not because she needed reminding who En-Ra was, or where the Stream had come from, but because in this single instant there was something she kept coming back to, the way one comes back to the very first breath: not for information, but for confirmation that it had not all been in vain, that someone, once, had risked speaking into the void — and the void had answered.
 
-She stood on the edge of this memory, the way she had always stood. She watched how the young man, whom the whole world would call the First, fell to his knees under the weight of what he himself had let in.
+She stood on the edge of this memory, the way she had always stood. She watched how the young man, whom the whole world would call the First, and those who came later would call En-Ra, fell to his knees under the weight of what he himself had let in.
 
 And suddenly — a shadow.
 

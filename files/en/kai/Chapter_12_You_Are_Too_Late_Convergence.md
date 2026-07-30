@@ -1,5 +1,5 @@
 # Chapter 12. Kai's Book
-## You Are Late / The Convergence
+## You Are Too Late. The Convergence
 
 The last point on the arc had no name.
 

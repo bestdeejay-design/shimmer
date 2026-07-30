@@ -69,7 +69,7 @@ No answer came. But the crystals at his waist grew warm, both at once, as though
 
 ---
 
-Far away, at the other edge of the Stream, in the very heart of her Shimmer, Lira felt this question as she had never felt anything before.
+Far away, at the other edge of the Stream, in the very heart of her Shimmer, Lira received this question as she had never received anything before.
 
 To understand what the Shimmer is from inside, one must stop thinking of it as a place. It is not light and not dark, not up and not down — it is a state in which everything she had once been continues to exist not in a body, but in a pattern: in the weaving of memory, will, and warmth, stretched out over a thousand years, like a thread out of which a cloth is woven, too large to be seen whole from within. She did not dream, the way the living dream. She *was* the dream — the very one that had come to Kai night after night — and at the same time she remained the one who remembered, guided, and kept that dream, as though one half of her slept, while the other had not closed its eyes for over nine hundred years.
 

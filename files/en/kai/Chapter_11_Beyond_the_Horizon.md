@@ -1,5 +1,5 @@
 # Chapter 11. Kai's Book
-## Beyond the Edge of the Hour
+## Beyond the Horizon of the Hour
 
 He thought he had learned to listen.
 
@@ -83,9 +83,9 @@ He did not know that this was the very next step Lira's gift had been waiting fo
 
 ---
 
-Far away at the other edge of the Stream, Lira felt this not as an answer, and not as recognition.
+Far away at the other edge of the Stream, for Lira this was neither an answer nor a recognition.
 
-She felt it as an earthquake — quiet, soundless, but such that for a moment the very structure of her Shimmer trembled, as though something she had taken for an unchanging law of the world had just confirmed that it had never been a law.
+Something in her Shimmer swayed, as from a tremor beneath the ground — quiet, soundless, but such that for a moment the very structure of her Shimmer trembled, as though something she had taken for an unchanging law of the world had just confirmed that it had never been a law.
 
 No Architect before him had gone past his own Hour. None — including her, including the old man whose voice she knew better than her own breath. She had spent a thousand years believing the limit was simply the limit, part of the Stream's design, as inevitable as the change of day and night.
 

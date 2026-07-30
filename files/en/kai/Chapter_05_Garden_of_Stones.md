@@ -67,7 +67,7 @@ He knew none of the names. He did not know who these four had been — or whethe
 
 Further around the circle stood more statues — but not like the first four.
 
-The fifth, sixth, seventh — were rougher, less finished, as though the carver had not had time to complete the work, or had deliberately left it half-done. The touch of them answered more dully, in fragments — separate flashes with no clear shape: someone's laughter, someone's pain, someone's long training, stretched out over years about which Kai could say nothing except that they had been. He thought: perhaps these stories are not yet finished. Perhaps they are still going on — only not here.
+The fifth, sixth, seventh were rougher, as though the carver had left the work half-done: the touch of them answered more dully, in fragments — someone's laughter, someone's pain, someone's long apprenticeship, stretched out over years about which Kai could say nothing except that they had been. He thought: perhaps these stories are not yet finished. Perhaps they are still going on — only not here.
 
 And then he came to the eighth.
 
@@ -101,7 +101,7 @@ They were those who had walked this path before him.
 
 ---
 
-That same night, Lira, in her Shimmer, felt a touch upon the circle — a thin, barely perceptible tremor in the furthest node of the net she had been weaving for centuries, world after world, statue after statue, imprint after imprint, each time setting into the stone a particle of what she had been able to gather from the memory of all who had walked this path before her.
+That same night, Lira, in her Shimmer, recognized a touch upon the circle — a thin, barely perceptible tremor in the furthest node of the net she had been weaving for centuries, world after world, statue after statue, imprint after imprint, each time setting into the stone a particle of what she had been able to gather from the memory of all who had walked this path before her.
 
 The eighth statue was her own. She knew it better than she knew anything else — because she herself had set into it what little of herself could still be given, without risking going out before her time.
 

@@ -1,5 +1,5 @@
 # Chapter 4. Kai's Book
-## The Spire-Tower
+## The Spire
 
 That night the dream was different.
 
@@ -41,7 +41,7 @@ But the Spire did not answer him directly. It seemed, instead, to be waiting for
 
 He sat at the base of the Spire until dark, unable to leave and unable to understand what else to wait for. The stars came out one by one, cold and sharp, as they always are in the desert at night — but none of them looked like the stream of light that had once poured into his dream, into the old man's raised hands. The Spire stood dark and silent, reflecting the stars in its smooth facets, but saying nothing in return.
 
-By midnight Kai understood: this was not the day.
+By midnight Kai understood: the matter was not in the day. He had come to the tower like to a lock — but it had been waiting not for a key, but for a voice. And in this realization something turned over inside him: perhaps all this time he had been trying to open the world by touch, while the world had been waiting for him to call.
 
 He did not know — for how could he have known — that the matter was not in him alone. That the Spire was not simply a stone waiting for a touch, but an antenna tuned to something far subtler than the laying on of a palm: to a voice joined to the Stream, not merely a body that had come up to it. That until he learned not to touch, but to sound — the tower would keep its silence before him, just as it had kept it before everyone before him, who had come from curiosity, and not by right.
 

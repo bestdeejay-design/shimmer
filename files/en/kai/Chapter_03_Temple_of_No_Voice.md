@@ -33,7 +33,7 @@ She looked at him. Directly. And she spoke — not aloud, but in such a way that
 
 He woke with a start, his heart hammering. The crystal on his chest was hot, almost alive.
 
-The next day he went to the Temple.
+The voice did not command — it only named aloud what Kai already knew himself: the longing for a silence in which one could at last hear oneself. And the next day he went to the Temple — not because the words had ordered him to, but because he himself, of his own will, had decided to stop running from what was growing inside him.
 
 ---
 
@@ -99,7 +99,7 @@ The crystal had changed too. It was no longer just a cold stone that warmed at n
 
 That very night, thousands of years and an unimaginable number of stars away from Tamar, Lira felt a tremor.
 
-It was not strong — more like the echo of a stranger's step, carried through a thickness of distance that had long since ceased to be countable. She did not know — could not have known — that in this very moment a boy in a foreign desert had crawled into the dark for the first time and come out of it changed. But she felt: he had heard. He had understood. He was on his way.
+It was not strong — more like the echo of a stranger's step, carried through a thickness of distance that had long since ceased to be countable. She did not know — could not have known — that in this very moment a boy in a foreign desert had crawled into the dark for the first time and come out of it changed. But she knew: he had heard. He had understood. He was on his way.
 
 And for the first time in the nine hundred and ninety-nine years of her Shimmer, her light did not fade, the way it had faded every night before this.
 
