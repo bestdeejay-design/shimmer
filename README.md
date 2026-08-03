@@ -62,14 +62,14 @@ real — buried in sand, forgotten in a generation. His dreams are bridges to
 a voice that has been waiting for a thousand years.
 
 - **Status**: Complete — 12 chapters.
-- **Language**: Russian.
+- **Languages**: Russian, English.
 
 ### Book of Lira
 Lira's story — from life to Shimmer to the creation of the Path. What she
 sacrificed, what she built, and who she was before she became a legend.
 
-- **Status**: In progress (prologue + chapter 1).
-- **Language**: Russian.
+- **Status**: Complete — prologue + 10 chapters.
+- **Languages**: Russian, English.
 
 ### Lore Files
 Seven reference documents covering the Psi-Stream, Shimmer mechanics, the
@@ -129,7 +129,7 @@ shimmer/
 │   ├── kai/       # Book of Kai — 12 chapters (Russian)
 │   ├── lira/      # Book of Lira — 11 chapters (Russian)
 │   ├── lore/      # 7 lore reference files (Russian)
-│   ├── en/        # English translation (Kai + Lira + Lore stubs)
+│   ├── en/        # English translation (Kai + Lira + Lore + About)
 │   ├── SUMMARY.md # Table of contents
 │   └── sw.js      # Service Worker
 ├── custom/
